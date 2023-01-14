@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>calculator</p>
+    <div><label for="tableRowsX">enter number of data values in x</label>
+        <input type="number" id="tableRowsX" />
+        <button onclick=showRowsX()>next</button>
+    </div>
+    <div><label for="tableRowsY">enter number of data values in y</label>
+        <input type="number" id="tableRowsY" />
+        <button onclick=showRowsY()>next</button>
+    </div>
+    
+        <span id="xData" class="x-rows"></span>
+        <span id="yData" class="y-rows"></span>
+    
+    <div>
+        <label for="enterNumbers">enter x to calculate y</label>
+    <input type="number"  class="x-value"/>
+    </div>
+    <div>
+        <label for="enterNumbers">calculated y value</label>
+    </div>
+<script src="./calculator.js"></script>
+</html>
